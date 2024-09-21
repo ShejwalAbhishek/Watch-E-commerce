@@ -1,0 +1,73 @@
+/* General Styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* About Section Styling */
+.about-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.about-content {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #f2e5e1; /* Matching the theme color */
+    background-color: #fdf2f0; /* Light peach background to match theme */
+    border-radius: 8px;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Button Styles */
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .about-content {
+        padding: 10px;
+    }
+
+    .about-content h2 {
+        font-size: 28px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+    }
+}
